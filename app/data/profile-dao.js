@@ -73,7 +73,7 @@ function ProfileDAO(db) {
         if(dob) {
             user.dob = encrypt(dob);
         }
-        
+
 
         users.update({
                 _id: parseInt(userId)
